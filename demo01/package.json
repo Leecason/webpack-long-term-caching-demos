@@ -6,9 +6,5 @@
   "scripts": {
     "build": "webpack"
   },
-  "license": "MIT",
-  "dependencies": {
-    "global": "^4.4.0",
-    "webpack": "4.17.1"
-  }
+  "license": "MIT"
 }

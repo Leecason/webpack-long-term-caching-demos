@@ -1,14 +1,10 @@
 {
-  "name": "demo01",
+  "name": "demo09",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
     "build": "webpack"
   },
-  "license": "MIT",
-  "dependencies": {
-    "global": "^4.4.0",
-    "webpack": "4.17.1"
-  }
+  "license": "MIT"
 }

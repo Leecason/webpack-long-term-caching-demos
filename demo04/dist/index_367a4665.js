@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],[,function(o,n){console.log("this is from b")},,,function(o,n,i){"use strict";i.r(n);i(1);var s=i(0);Object(s.identity)(),console.log("hello-world")}],[[4,1,2]]]);

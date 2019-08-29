@@ -1,0 +1,26 @@
+{
+  "name": "webpack-long-term-cache-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leecason/webpack-long-term-cache-demo.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "leecason",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Leecason/webpack-long-term-cache-demo/issues"
+  },
+  "homepage": "https://github.com/Leecason/webpack-long-term-cache-demo#readme",
+  "devDependencies": {
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.3.7"
+  }
+}

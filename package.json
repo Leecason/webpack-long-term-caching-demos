@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/Leecason/webpack-long-term-cache-demo#readme",
   "devDependencies": {
+    "css-loader": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
     "webpack": "^4.17.1",
     "webpack-cli": "^3.3.7"
   },

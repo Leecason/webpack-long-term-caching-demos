@@ -19,7 +19,7 @@ import { add } from 'lodash';
 add(1, 1);
 ```
 
-**`webpack` 配置文件中使用 splitChunk 进行分包，抽出 vendors 以及 runtime 文件。
+**`webpack` 配置文件中使用 splitChunk 进行分包，抽出 vendors 以及 runtime 文件。**
 > 不了解的可以去 webpack 官网翻阅一下。
 
 ```js

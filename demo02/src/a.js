@@ -1,3 +1,3 @@
-import { identity } from 'lodash';
+import { add } from 'lodash';
 
-identity();
+add(1, 1);

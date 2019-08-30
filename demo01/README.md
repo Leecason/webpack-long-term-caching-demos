@@ -1,6 +1,6 @@
-# Demo01 简单的 `hash`
+## Demo01 简单的 `hash`
 
-入口文件`index.js`
+**入口文件 `index.js`**
 
 ```js
 // index.js
@@ -8,7 +8,7 @@ console.log('hello world');
 
 ```
 
-`webpack` 配置文件
+**`webpack` 配置文件**
 
 ```js
 // webpack.config.js
@@ -24,9 +24,9 @@ module.exports = {
 };
 ```
 
-Output:
+**打包结果 Output**
 
-> 可见 dist 文件夹下
+> 见 dist 文件夹
 
 ```she
             Asset       Size  Chunks             Chunk Names

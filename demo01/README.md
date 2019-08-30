@@ -28,7 +28,7 @@ module.exports = {
 
 > 见 dist 文件夹
 
-```she
+```zsh
             Asset       Size  Chunks             Chunk Names
 index_cb736c3b.js  956 bytes       0  [emitted]  index
 ```

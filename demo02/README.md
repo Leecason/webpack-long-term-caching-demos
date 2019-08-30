@@ -46,7 +46,7 @@ module.exports = {
 
 > 见 dist 文件夹
 
-```she
+```zsh
                     Asset       Size  Chunks             Chunk Names
         index_61b135b8.js  168 bytes       0  [emitted]  index
 runtime~index_61b135b8.js   1.46 KiB       1  [emitted]  runtime~index

@@ -38,4 +38,4 @@ runtime~index_2f124e9a.js   1.46 KiB       1  [emitted]  runtime~index
 vendors~index_210f8b90.js   69.7 KiB       2  [emitted]  vendors~index
 ```
 
-可以看到 index 文件的 `hash` 变动了，符合预期。但是 vendors 文件按照期望 [hash] 并不应该发生变化，因为是打包的 lodash 库，与 b 模块无关。原因是 webpack4 默认按照 `resolving order` 使用自增 `module id` 进行模块标识。将 `b.js` 的引入放到 `a.js` 上面后，`a.js` 的 resolve 顺序在 `b.js` 之后，所以 `module id` 改变导致 [hash] 改变，所以我们要想办法稳定 `module id`。
+可以看到 index 文件的 `hash` 变动了，符合预期。但是 vendors 文件按照期望 `hash` 并不应该发生变化，因为是打包的 lodash 库，与 b 模块无关。原因是 webpack4 默认按照 `resolving order` 使用自增 `module id` 进行模块标识。将 `b.js` 的引入放到 `a.js` 上面后，`a.js` 的 resolve 顺序在 `b.js` 之后，所以 `module id` 改变导致 `hash` 改变，所以我们要想办法稳定 `module id`。

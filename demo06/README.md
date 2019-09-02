@@ -26,14 +26,7 @@ body {
 ```js
 // webpack.config.js
 module.exports = {
-  mode: 'production',
-  entry: {
-    index: './src/index.js',
-  },
-  output: {
-    path: path.join(__dirname, 'dist'),
-    filename: '[name]_[hash:8].js',
-  },
+  ...
   module: {
     rules: [{
       test: /\.css$/,
@@ -49,13 +42,6 @@ module.exports = {
         },
       ],
     }],
-  },
-  optimization: {
-    moduleIds: 'hashed',
-    runtimeChunk: true,
-    splitChunks: {
-      chunks: 'all'
-    },
   },
   plugins: [
     new MiniCssExtractPlugin({

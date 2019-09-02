@@ -54,7 +54,7 @@ module.exports = {
 };
 ```
 
-这里使用 webpack@4.16.0 新特性 `optimization.moduleIds`。
+两种方案都会根据模块的相对路径生成一个 `hash` 作为 `module id`，而不是以 `resolving order` 作为 `module id`，这里使用 webpack@4.16.0 新特性 `optimization.moduleIds`。
 
 **打包结果 Output**
 

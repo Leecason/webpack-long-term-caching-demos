@@ -19,7 +19,7 @@ entry: {
 
 **打包结果 Output**
 
-> 未添加 index2 时，见 dist 1 文件夹
+> 未添加 index2 时，见 dist1 文件夹
 
 ```zsh
                     Asset       Size  Chunks             Chunk Names
@@ -30,7 +30,7 @@ runtime~index_57589e3f.js   2.22 KiB       1  [emitted]  runtime~index
 vendors~index_e1005034.js   69.7 KiB       2  [emitted]  vendors~index
 ```
 
-> 添加 index2 后，见 dist 2 文件夹
+> 添加 index2 后，见 dist2 文件夹
 
 ```zsh
                      Asset       Size  Chunks             Chunk Names

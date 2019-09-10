@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{A6LB:function(o,n){console.log("this is from index2")}},[["A6LB",3]]]);

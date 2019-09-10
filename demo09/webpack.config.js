@@ -31,7 +31,6 @@ module.exports = {
   },
   optimization: {
     moduleIds: 'hashed',
-    chunkIds: 'named',
     runtimeChunk: true,
     splitChunks: {
       chunks: 'all'
